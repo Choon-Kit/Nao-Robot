@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "intent": "greetings",
+      "examples": ["Hi, nao", "Hello, nao", "Good day, my friend", "Hello my friend"],
+      "responses": ["Hi, how are you today sir", "Hello sir, good day to you"]
+    },
+    {
+      "intent": "back pain",
+      "examples": ["back pain"],
+      "responses": ["Applying heat or cold packs to the affected area"]
+    },
+    {
+      "intent": "headache",
+      "examples": ["headache"],
+      "responses": [" you're drinking enough water throughtout the entire day."]
+    },
+    {
+      "intent": "diarrhea",
+      "examples": ["diarrhea"],
+      "responses": ["going toilet more than 30 min."]
+    },
+    {
+      "intent": "treatment1",
+      "examples": ["What is the treatment for the back pain?"],
+      "responses": ["Apply heat or cold packs can help reduce the pain."]
+    },
+    {
+      "intent": "treatment2",
+      "examples": ["What is the treatment for the headache?"],
+      "responses": ["rest in bed and avoid sound environment."]
+    },
+    {
+      "intent": "treatment3",
+      "examples": ["What is the treatment for the diarrhea?"],
+      "responses": ["you can treat your acute diarrhea with over-the-counter medicines"]
+    },
+    {
+      "intent": "precautions1",
+      "examples": ["What I do to avoid back pain?"],
+      "responses": ["Keep exercising to release the pain."]
+    },
+    {
+      "intent": "precautions2",
+      "examples": ["What I do to avoid headache?"],
+      "responses": ["get enough sleep"]
+    },
+    {
+      "intent": "precautions3",
+      "examples": ["What I do to avoid diarrhea?"],
+      "responses": ["washing hands and eat fruits."]
+    },
+    {
+      "intent": "end",
+      "examples": ["Thank you nao", "Goodbye nao"],
+      "responses": ["You're most welcome", "See you next time, goodbye"]
+    }
+  ]
+}
